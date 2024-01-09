@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :linux]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :ruby]
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
