@@ -18,6 +18,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :ruby]
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.0"
+gem "csv"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
