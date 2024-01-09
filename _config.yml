@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title: "Academic page of Brian Sinquin"
+title: "Homepage of Brian Sinquin"
 title_separator: "-"
 name: &name "Brian Sinquin"
 description: &description "Ph.D in photonics"
