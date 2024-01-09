@@ -11,7 +11,7 @@ source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.3.3'
 
-gem "github-pages", group: :jekyll_plugins
+
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :ruby]
 
 # If you want to use Jekyll native, uncomment the line below.
@@ -27,7 +27,6 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
   
 end
 
