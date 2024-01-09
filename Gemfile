@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem 'jekyll', '~> 4.2'
+gem 'jekyll', '~> 4.3.3'
 
 gem "github-pages", group: :jekyll_plugins
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :ruby]
