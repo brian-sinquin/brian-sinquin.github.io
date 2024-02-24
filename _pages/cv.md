@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitæ"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -12,12 +12,15 @@ redirect_from:
 Under construction
 {: .notice}
 
-<!--
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Photonics
+  * Institut National des Sciences Appliquées (INSA Rennes)
+  * Université de Rennes, 2023
+* M.S. in Fundamental and Applied Physics : Photonics
+  * Université de Bretagne Occidentale, 2021
+* B.S. in Physics
+  * Université de Bretagne Occidentale, 2018
 
 Work experience
 ======
@@ -33,8 +36,8 @@ Work experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
+* Optoelectronics
+* Nonlinear Optics
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
@@ -58,6 +61,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
+<!-- Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
