@@ -21,13 +21,19 @@
     </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'publications' %}
-      {{ title }} {% if post.link %}
+    <span>
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.collection == 'publications' %}
+        {{ title }}
+
+        {% endif %}
+      </h2>
+      {% if post.link %}
       <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.paperurl %}
-      <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+      <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" style="color: red; opacity: 100%;"
+          aria-hidden="true"></i></a>
       {% endif %}
       {% if post.code %}
       <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
@@ -35,13 +41,7 @@
       {% if post.github %}
       <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
       {% endif %}
-      {% elsif post.link %}
-      <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i
-          class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    </span>
 
     {% if post.read_time %}
     {% elsif post.read_time and post.collection == 'posts' %}
