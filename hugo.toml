@@ -6,3 +6,158 @@ title = "Brian's Homepage"
 baseURL = "https://brian-sinquin.github.io/"
 # Change the default theme to be use when building the site with Hugo
 theme = "FixIt"
+
+[menu]
+  [[menu.main]]
+    identifier = "publications"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "Publications"
+    url = "/publications/"
+    title = ""
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-book-open"
+  [[menu.main]]
+  identifier = "research"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Research"
+  url = "/research/"
+  title = ""
+  weight = 2
+  [menu.main.params]
+  icon = "fa-solid fa-flask"
+  [[menu.main]]
+  identifier = "project"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Projects"
+  url = "/project/"
+  title = ""
+  weight = 3
+  [menu.main.params]
+    icon = "fa-solid fa-gear"
+  [[menu.main]]
+  identifier = "post"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Blog"
+  url = "/post/"
+  title = ""
+  weight = 4
+  [menu.main.params]
+    icon = "fa-solid fa-pen"
+  [[menu.main]]
+    identifier = "cv"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "CV"
+    url = "/cv/"
+    title = ""
+    weight = 5
+    [menu.main.params]
+      icon = "fa-solid fa-graduation-cap"
+  [[menu.main]]
+    identifier = "tags"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 6
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+
+# Author Configuration
+[params.author]
+  name = "Brian Sinquin"
+  #email = "brian.sinquin@gmail.com"
+  link = ""
+  avatar = ""
+
+ # Header config
+  [params.header]
+    # FixIt 0.2.13 | CHANGED desktop header mode ["sticky", "normal", "auto"]
+    desktopMode = "sticky"
+    # FixIt 0.2.13 | CHANGED mobile header mode ["sticky", "normal", "auto"]
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = ""
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = true
+    # FixIt 0.2.12 | NEW Header subtitle config
+    [params.header.subtitle]
+      # subtitle name
+      name = ""
+      # whether to use typeit animation for subtitle name
+      typeit = false
+
+
+[params.breadcrumb]
+  enable = false
+  sticky = false
+  showHome = false
+# Footer config
+  [params.footer]
+    enable = true
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # Site creation year
+    since = "2024"
+    # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
+    gov = ""
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = ""
+    # FixIt 0.3.0 | NEW whether to show Hugo and theme info
+    [params.footer.powered]
+      enable = false
+      hugoLogo = false
+      themeLogo = false
+
+
+[params.home]
+    # amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = false
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = ""
+      # FixIt 0.2.17 | NEW identifier of avatar menu link
+      avatarMenu = ""
+      # title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      subtitle = ""
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 6
