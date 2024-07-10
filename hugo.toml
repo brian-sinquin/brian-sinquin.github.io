@@ -2,10 +2,10 @@
 # The following is a necessary configuration for the FixIt theme.
 # -------------------------------------------------------------------------------------
 
-title = "My Hugo FixIt Site"
+title = "Brian's Homepage"
 baseURL = "https://brian-sinquin.github.io/"
 # Change the default theme to be use when building the site with Hugo
-# theme = "FixIt"
+theme = "FixIt"
 
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
@@ -51,5 +51,5 @@ baseURL = "https://brian-sinquin.github.io/"
 
 [params]
   # FixIt theme version
-  version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  # version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # ...
