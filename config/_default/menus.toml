@@ -1,0 +1,72 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
+
+
+[[main]]
+  identifier = "publications"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Publications"
+  url = "/publications/"
+  title = ""
+  weight = 1
+  [main.params]
+    icon = "fa-solid fa-book-open"
+[[main]]
+  identifier = "research"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Research"
+  url = "/research/"
+  title = ""
+  weight = 2
+  [main.params]
+  icon = "fa-solid fa-flask"
+[[main]]
+  identifier = "project"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Projects"
+  url = "/project/"
+  title = ""
+  weight = 3
+  [main.params]
+    icon = "fa-solid fa-gear"
+[[main]]
+  identifier = "post"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Blog"
+  url = "/post/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-solid fa-pen"
+[[main]]
+  identifier = "cv"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "CV"
+  url = "/cv/"
+  title = ""
+  weight = 5
+  [main.params]
+    icon = "fa-solid fa-graduation-cap"
+[[main]]
+  identifier = "tags"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Tags"
+  url = "/tags/"
+  title = ""
+  weight = 6
+  [main.params]
+    icon = "fa-solid fa-tags"
