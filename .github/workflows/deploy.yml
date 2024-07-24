@@ -1,18 +1,18 @@
 name: Hugo build and deploy
 on:
   push:
-    branches: [ main ]
+    branches: [master]
     paths:
-      - 'assets/**'
-      - 'config/**'
-      - 'content/**'
-      - 'data/**'
-      - 'static/**'
-      - 'themes/**'
-      - 'go.mod'
-      - 'go.sum'
+      - "assets/**"
+      - "config/**"
+      - "content/**"
+      - "data/**"
+      - "static/**"
+      - "themes/**"
+      - "go.mod"
+      - "go.sum"
   workflow_run:
-    workflows: ['Update theme']
+    workflows: ["Update theme"]
     types:
       - completed
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Cache Hugo resources
         uses: actions/cache@v4
         env:
