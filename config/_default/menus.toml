@@ -16,6 +16,17 @@
   [main.params]
     icon = "fa-solid fa-book-open"
 [[main]]
+  identifier = "talks"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Talks"
+  url = "/talks/"
+  title = ""
+  weight = 2
+  [main.params]
+    icon = "fa-solid fa-microphone"
+[[main]]
   identifier = "research"
   parent = ""
   pre = ""
@@ -23,7 +34,7 @@
   name = "Research"
   url = "/research/"
   title = ""
-  weight = 2
+  weight = 3
   [main.params]
   icon = "fa-solid fa-flask"
 [[main]]
@@ -34,18 +45,18 @@
   name = "Projects"
   url = "/project/"
   title = ""
-  weight = 3
+  weight = 4
   [main.params]
     icon = "fa-solid fa-gear"
 [[main]]
-  identifier = "post"
+  identifier = "posts"
   parent = ""
   pre = ""
   post = ""
   name = "Blog"
-  url = "/post/"
+  url = "/posts/"
   title = ""
-  weight = 4
+  weight = 5
   [main.params]
     icon = "fa-solid fa-pen"
 [[main]]
@@ -56,7 +67,7 @@
   name = "CV"
   url = "/cv/"
   title = ""
-  weight = 5
+  weight = 6
   [main.params]
     icon = "fa-solid fa-graduation-cap"
 [[main]]
@@ -67,6 +78,6 @@
   name = "Tags"
   url = "/tags/"
   title = ""
-  weight = 6
+  weight = 7
   [main.params]
     icon = "fa-solid fa-tags"

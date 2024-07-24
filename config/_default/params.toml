@@ -6,7 +6,7 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "Welcome on my academic homepage"
 # site keywords
 keywords = ["Hugo", "FixIt"]
 # site default theme ["light", "dark", "auto"]
@@ -117,7 +117,7 @@ disableThemeInject = false
     # title name
     name = "Brian's Homepage"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = '<i class="fa-solid fa-floppy-disk"></i>  '
+    # pre = '<i class="fa-solid fa-floppy-disk"></i>  '
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     # whether to use typeit animation for title name
@@ -229,9 +229,9 @@ disableThemeInject = false
     # title shown in home page (HTML format is supported)
     title = ""
     # subtitle shown in home page
-    subtitle = "Welcome on my portfolio"
+    subtitle = "Welcome on my academic website"
     # whether to use typeit animation for subtitle
-    typeit = false
+    typeit = true
     # whether to show social links
     social = true
     # disclaimer (HTML format is supported)
@@ -245,7 +245,7 @@ disableThemeInject = false
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
   GitHub = "brian-sinquin"
-  Linkedin = "https://www.linkedin.com/in/brian-sinquin/"
+  Linkedin = "brian-sinquin/"
   Twitter = ""
   Instagram = ""
   Facebook = ""
@@ -298,7 +298,7 @@ disableThemeInject = false
   Wordpress = ""
   Vine = ""
   Googlescholar = ""
-  Researchgate = "https://www.researchgate.net/profile/Brian-Sinquin"
+  Researchgate = "Brian-Sinquin"
   Mastodon = ""
   Thingiverse = ""
   Devto = ""
@@ -306,13 +306,13 @@ disableThemeInject = false
   XMPP = ""
   Matrix = ""
   Bilibili = ""
-  ORCID = "https://orcid.org/0000-0001-8278-394X"
+  ORCID = "0000-0001-8278-394X"
   Liberapay = ""
   Ko-Fi = ""
   BuyMeaCoffee = ""
   Linktree = ""
   QQ = ""
-  QQGroup = "" # https://qun.qq.com/join.html
+  QQGroup = "" 
   Diaspora = ""
   CSDN = ""
   Discord = ""
@@ -483,7 +483,7 @@ disableThemeInject = false
       # bitcoin = "/images/bitcoin.png"
   # social share links in post page
   [page.share]
-    enable = true
+    enable = false
     Twitter = true
     Facebook = true
     Linkedin = false

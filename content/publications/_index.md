@@ -1,5 +1,0 @@
----
-title: Publications
-aliases:
-  - /posts/
----
