@@ -5,7 +5,7 @@
 
 title = "Brian's Homepage"
 baseURL = "https://brian-sinquin.github.io/"
-theme = "FixIt"
+# theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
@@ -16,4 +16,9 @@ relativeURLs = false
 buildDrafts = false
 summaryLength = 150
 # ignore some build errors
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+ignoreLogs = [
+  "error-get-remote-image",
+  "error-get-remote-json",
+  "error-remote-getjson",
+  "error-missing-instagram-accesstoken"
+]

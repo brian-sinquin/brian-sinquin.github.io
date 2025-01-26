@@ -1,0 +1,25 @@
+- title: "Low Phase Noise Direct-Modulation Optoelectronic Oscillator"
+  date: 2021-10-09
+  venue: "Journal of Lightwave Technology"
+  download: "https://hal.science/hal-03487897"
+  doi: "10.1109/JLT.2021.3111703"
+  authors: ["B. Sinquin", "M. Romanelli","S. Bouhier", "L. Frein", "M. Alouini", "M. Vallet"]
+  abstract: "A direct-modulation OEO (DM-OEO) generating stable 10 GHz and 20 GHz signals is presented. A single loop and a dual loop approach are implemented and compared. We show an output signal of 15 dBm RF power, and a phase noise as low as −135 dBc/Hz at 10 kHz offset from the 10 GHz carrier. The 20 GHz second harmonic exhibits a noise level of −127 dBc/Hz at 10 kHz. A high spur level reduction is also obtained in the dual loop architecture."
+  keywords: ["OEO", "modulation", "phasenoise", "oscillator"]
+- title: "Determination of the linewidth enhancement factor of semiconductor lasers by complete optical field reconstruction"
+  date: 2023-10-09
+  venue: "Optics Letters"
+  download: "https://hal.science/hal-03940670v1"
+  authors: ["B. Sinquin", "M. Romanelli"]
+  doi: "10.1364/OL.483776"
+  citation: 'B. Sinquin and M. Romanelli, "Determination of the linewidth enhancement factor of semiconductor lasers by complete optical field reconstruction," Opt. Lett.  <b>48</b>, 863-866 (2023).'
+  abstract: "We show that the method of complete optical field reconstruction introduced by Debeau et al. [Opt. Lett. <b>23</b>, 1784 (1998)] allows a precise determination of the linewidth enhancement factor (LEF) of semiconductor lasers. We determine experimentally the LEF with 3% uncertainty. The method is rather simple and reliable, and is of interest in the context of microwave photonics. While particularly adapted to actively modulated devices, the proposed approach can in principle be applied to any laser exhibiting a time-periodic behavior."
+  keywords: ["modulation", "linewidth", "measurement", "reconstruction"]
+- title: "Direct-Modulation Optoelectronic Oscillator for Optical Pulse and Frequency Comb Generation"
+  date: 2024-07-17
+  venue: "JOSA B"
+  download: "https://hal.science/hal-04686127v1"
+  doi: "10.1364/JOSAB.529629"
+  authors: ["B. Sinquin", "M. Romanelli", "M. Alouini", "M. Vallet"]
+  abstract: "We report the generation of an optical pulse train with a 10 GHz repetition rate in a dual loop direct-modulation optoelectronic oscillator (OEO). Pulse generation is achieved using nonlinear compression in the OEO 5-km-long optical delay line. 3 ps pulses with a timing jitter of 13 fs are reported, while the OEO maintains a phase noise of -133 dBc/Hz at 10 kHz from the carrier. Two architectures are compared experimentally and theoretically. A frequency comb with a 1.2 THz linewidth at -30 dB is generated."
+  keywords: ["nonlinear optics", "OEO", "modulation", "pulse", "phasenoise"]

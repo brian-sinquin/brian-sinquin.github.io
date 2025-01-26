@@ -4,24 +4,24 @@
 {{- end -}}
 
 {{- define "content" -}}
-{{- $articles := .Site.Data.articles -}}
+{{- $talks := .Site.Data.talks -}}
   <div class="page home posts">
     <div class="header archive">
       {{- /* Title */ -}}
       <h1 class="single-title animate__animated animate__pulse animate__faster">
-        {{- $titleIcon := "fa-solid fa-book-open" -}}
+        {{- $titleIcon := "fa-solid fa-microphone" -}}
         {{- with .Params.titleIcon -}}
           {{- $titleIcon = . -}}
         {{- end -}}
         {{- dict "Class" (add $titleIcon " fa-fw me-1") | partial "plugin/icon.html" -}}
-       Publications <sup>{{ $articles | len }}</sup>
+       Talks <sup>{{ $talks | len }}</sup>
       </h1>
 
     </div>
 
 
 
-    {{- range .Site.Data.articles -}}
+    {{- range .Site.Data.talks -}}
 
 
 
@@ -32,7 +32,7 @@
       {{- /* Title */ -}}
       <h2 class="single-title" itemprop="name headline">
 
-        <a href="http://doi.org/{{- .doi -}}">{{- .title -}}</a>
+        <a href="{{- with .doi -}}http://doi.org/{{- . -}}{{- end -}}">{{- .title -}}</a>
       </h2>
       <div class="post-meta">
 
@@ -46,6 +46,7 @@
         <span class="post-publish">
           <i class="fa-regular fa-calendar fa-fw me-1"></i><b>{{- .date -}}</b>
         </span>&nbsp;<span><b><i class="fa-solid fa-book fa-fw me-1"></i>{{- .venue -}}</b></span>&nbsp;
+        {{- with .location -}}<span><i class="fa-solid fa-location-dot fa-fw me-1" style="color: red;"></i><b>{{- . -}}</b></span>&nbsp;{{- end -}}
           {{- with .download -}}<span style="float: right;"><i class="fa-regular fa-file-pdf fa-fw me-1" style="color: red;"></i><a href="{{- . -}}"><b>Download</b></a></span>&nbsp;{{- end -}}
     
       </div>
@@ -55,9 +56,9 @@
   
         {{- dict
           "Type" "quote"
-          "Title" "Abstract"
-          "Open" false
-          "Text" .abstract
+          "Title" "Citation"
+          "Open" true
+          "Text" .citation
           | partial "plugin/admonition.html"
         -}}
 
@@ -65,7 +66,7 @@
     
       {{- /* Footer */ -}}
       <div class="post-footer">
-        <span><b>DOI :</b> <a href="http://doi.org/{{- .doi -}}">{{- .doi -}}</a></span>
+        {{- with .doi -}}<span><b>DOI : <a href="http://doi.org/{{- . -}}">{{- . -}}</a></b></span>{{- end -}}
         {{- $tagTerms := .keywords -}}
         {{- if $tagTerms -}}
           <div class="post-tags">
