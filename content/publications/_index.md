@@ -1,3 +1,4 @@
 ---
-collection: publications
+title: "Publications"
+collections: "Communication"
 ---

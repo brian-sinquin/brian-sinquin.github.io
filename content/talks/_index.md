@@ -1,3 +1,4 @@
 ---
-collection: talks
+title: "Talks"
+collections: "Communication"
 ---

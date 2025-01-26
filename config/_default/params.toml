@@ -189,6 +189,12 @@ disableThemeInject = false
   # date format (month and day)
   dateFormat = "01-02"
 
+[projects]
+  # special amount of posts in archives page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+
 # Section page config (all pages in section)
 [section]
   # special amount of pages in each section page
@@ -254,7 +260,7 @@ disableThemeInject = false
     disclaimer = 'Max Born Institute for Nonlinear Optics and Short Pulse Spectroscopy'
   # Home page posts
   [home.posts]
-    enable = true
+    enable = false
     # special amount of posts in each home posts page
     paginate = 6
 
