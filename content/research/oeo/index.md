@@ -1,5 +1,5 @@
 ---
 title: "Optoelectronic oscillators"
-type: "posts"
+type: "page"
 collections: "Research"
 ---

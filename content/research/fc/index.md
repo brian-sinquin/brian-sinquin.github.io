@@ -1,6 +1,5 @@
 ---
-title: "Frequency comb"
-type: "posts"
+title: "Frequency combs"
+type: "page"
 collections: "Research"
-next: "../dfc"
 ---

@@ -1,5 +1,5 @@
 ---
 title: "Dual Frequency combs"
-type: "page"
+type: "section"
 collections: "Research"
 ---
