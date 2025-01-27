@@ -1,7 +1,6 @@
 ---
 title: "Curriculum Vitae"
+date: 2025-01-01
 ---
-
-{{< admonition info "Info" true >}}
-This page is under construction.
-{{< /admonition >}}
+> [!Note]
+> This page is under construction.

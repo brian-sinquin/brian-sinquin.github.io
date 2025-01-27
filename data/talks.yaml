@@ -3,28 +3,36 @@
   doi:  "10.1109/CLEO/Europe-EQEC52157.2021.9542636"
   date: 2021-06-21
   location: "Munich, Germany"
-  citation: "B. Sinquin, M. Romanelli, S. Bouhier, M. Alouini, and M. Vallet, “Low phase noise microwave generation from a direct-modulation optoelectronic oscillator (DM-OEO),” 2021 Conference on Lasers and Electro-Optics Europe &amp; European Quantum Electronics Conference (CLEO/Europe-EQEC). IEEE, Jun. 21, 2021."
+  abstract: "Optoelectronic oscillators (OEO) have become of paramount importance for the generation of high spectral purity, (optically-carried) microwave signals. The most widespread architecture uses a Mach-Zehnder Modulator as the generator of the RF modulation [1]. Direct modulation of the injection current of a semi-conductor laser, arguably the simplest possible OEO [2] , has been comparatively much less explored [3]."
+  authors: ["B. Sinquin", "M. Romanelli", "S. Bouhier", "M. Alouini", "M. Vallet"]
 - title: "Direct-Modulation Optoelectronic Oscillator for Optical Frequency Comb and Pulse Generation"
   venue: "CLEO/Europe-EQEC"
   doi:  "10.1109/CLEO/Europe-EQEC57999.2023.10231990"
   date: 2023-06-26
   location: "Munich, Germany"
-  citation: "B. Sinquin, M. Vallet, M. Alouini, and M. Romanelli, “Direct-Modulation Optoelectronic Oscillator for Optical Frequency Comb and Pulse Generation,” 2023 Conference on Lasers and Electro-Optics Europe &amp; European Quantum Electronics Conference (CLEO/Europe-EQEC). IEEE, Jun. 26, 2023."
+  abstract: "Opto-electronic oscillators (OEOs) are able to produce low phase noise radio-frequency signals thanks to their high-quality-factor resonator that includes a km-long optical delay line [1]. While the main use of OEOs is the synthesis of ultra-pure electrical signals and optical clock distribution, it is also possible to generate short optical pulses with low timing jitter, using for instance nonlinear compression in the OEO fiber [2], for applications such as optical sampling, remote sensing (RADAR, LiDAR), frequency comb generation and so forth. We have recently demonstrated a 10 GHz direct-modulation OEO (DM-OEO) with a phase noise of -135 dBc/Hz at 10 kHz. In this work, we propose to take advantage of the optical output of the DM-OEO in order to broaden the optical spectrum and possibly generate ultra-low jitter optical pulses by nonlinear compression in the long SMF fiber. To this end, we have designed an optoelectronic loop including a phase modulator to positively chirp the laser field, and an Erbium Doped Fiber Amplifier (EDFA) to increase the nonlinear effects in the fiber (see Fig. 1a)."
+  authors: ["B. Sinquin", "M. Alouini", "M. Vallet", "M. Romanelli"]
 - title: "Accurate Measurement of the Linewidth Enhancement Factor of Semiconductor Lasers by a Simple Technique"
   venue: "CLEO/Europe-EQEC (online)"
   doi:  "10.1109/CLEO/Europe-EQEC57999.2023.10231566"
   date: 2023-06-26
+  abstract: "The high-frequency modulation of semiconductor laser's pump current is used in several important applications, such as high-speed data telecommunications[1], direct-modulation optoelectronic oscillators[2], optical sampling with gain-switched regimes and so forth. The linewidth enhancement factor (LEF) is the quantity that describes the coupling of phase fluctuations to intensity fluctuations and has important consequences such as laser linewidth broadening and pulse chirping. A good knowledge of the LEF is essential to predict the behavior of a modulated laser. The measurement of the LEF is tricky and many methods have been proposed, based on optical injection/feedback, on small/large signal modulation, or on spectral measurements[3]. Here we propose a novel method[4] based on the complete optical field reconstruction technique[5]. This method is of rather simple implementation and requires common opto-electronic lab instruments, i.e. a Mach-Zehnder modulator (MZM), RF synthesizers, a RF phase shifter, a direct-modulation laser and an optical spectrum analyzer (OSA), see Fig. 1a. The technique consists in modulating the source and measuring the optical spectrum for various RF delays τ, and allows retrieving iteratively the spectral phase."
   location: "Munich, Germany"
-  citation: "B. Sinquin and M. Romanelli, “Accurate Measurement of the Linewidth Enhancement Factor of Semiconductor Lasers by a Simple Technique,” 2023 Conference on Lasers and Electro-Optics Europe &amp; European Quantum Electronics Conference (CLEO/Europe-EQEC). IEEE, Jun. 26, 2023."
+  authors: ["B. Sinquin", "M. Romanelli"]
 - title: "Signaux Opto-RF très bas bruit de phase et instabilités dynamiques d’un OEO à modulation directe"
   venue: "JCOM 2021"
   download: "https://hal.science/hal-03285993"
   date: 2021-06-04
   location: "Paris, France"
-  citation: "B. Sinquin, S. Bouhier, L. Frein, M. Alouini, M. Vallet and Marco Romanelli, “Signaux Opto-RF très bas bruit de phase et instabilités dynamiques d’un OEO à modulation directe,” Journée du Club Optique et Micro-ondes (JCOM 2021), Jun. 4 2021, Paris, France. "
+  authors: ["B. Sinquin", "S. Bouhier", "L. Frein", "M. Alouini", "M. Vallet", "Marco Romanelli"]
 - title: "Génération de peignes de fréquence et d'impulsions dans un Oscillateur Opto-Électronique à modulation directe"
   venue: "OPTIQUE Nice"
   download: "https://hal.science/hal-03988116"
   date: 2022-07-04
   location: "Nice, France"
-  citation: "B. Sinquin, G. Loas, S. Bouhier, L. Frein, M. Vallet, M. Alouini and M. Romanelli, “Génération de peignes de fréquence et d'impulsions dans un Oscillateur Opto-Électronique à modulation directe,” OPTIQUE Nice 2022 &amp; Société Française d'Optique, Jul. 4, 2022, Nice, France"
+  authors: ["B. Sinquin", "G. Loas", "S. Bouhier", "L. Frein", "M. Vallet", "M. Alouini", "M. Romanelli"]
+- title: "Low phase noise direct-modulation Optoelectronic Oscillator"
+  video: "NiCSm7F7ba8"
+  venue: "GDR Ondes"
+  location: "Visio-conference"
+  date: 2021-03-18
