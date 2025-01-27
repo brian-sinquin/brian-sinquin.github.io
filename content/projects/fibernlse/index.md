@@ -3,8 +3,7 @@ title: "FiberNlse.jl"
 collections: "Projects"
 tags: ["Julia", "Simulation", "NLSE"]
 categories: ["Coding", "Simulation"]
+date: 2025-01-01
 ---
-
-{{< admonition info "Info" true >}}
-This page is under construction.
-{{< /admonition >}}
+> [!Note]
+> This page is under construction.
