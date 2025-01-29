@@ -71,28 +71,6 @@
   [main.params]
     icon = "fa-solid fa-graduation-cap"
 [[main]]
-  identifier = "archives"
-  parent = ""
-  # you can add extra information before the name (HTML format is supported), such as icons
-  pre = ""
-  # you can add extra information after the name (HTML format is supported), such as icons
-  post = ""
-  name = ""
-  url = "/archives/"
-  # title will be shown when you hover on this menu link
-  title = ""
-  weight = 8
-  # FixIt 0.2.14 | NEW add user-defined content to menu items
-  [main.params]
-    # add css class to a specific menu item
-    class = ""
-    # whether set as a draft menu item whose function is similar to a draft post/page
-    draft = false
-    # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
-    icon = "fa-solid fa-archive"
-    # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
-    type = ""
-[[main]]
   identifier = "categories"
   parent = ""
   pre = ""
@@ -100,7 +78,7 @@
   name = ""
   url = "/categories/"
   title = ""
-  weight = 9
+  weight = 8
   [main.params]
     icon = "fa-solid fa-folder-tree"
 [[main]]
@@ -108,7 +86,7 @@
   parent = ""
   pre = ""
   post = ""
-  name = "Tags"
+  name = ""
   url = "/tags/"
   title = ""
   weight = 7

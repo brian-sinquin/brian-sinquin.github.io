@@ -6,7 +6,7 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "This is my academic website"
 # site keywords
 keywords = ["Hugo", "FixIt"]
 # site default theme ["light", "dark", "auto"]
@@ -19,7 +19,7 @@ dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 images = []
 # FixIt 0.2.12 | NEW enable PWA
-enablePWA = false
+enablePWA = true
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
 externalIcon = false
 # FixIt 0.3.13 | NEW whether to capitalize titles
@@ -102,8 +102,8 @@ disableThemeInject = false
     location = 0
     threshold = 0.3
     distance = 100
-    ignoreLocation = false
-    useExtendedSearch = false
+    ignoreLocation = true
+    useExtendedSearch = true
     ignoreFieldNorm = false
 
 # Header config
@@ -135,15 +135,15 @@ disableThemeInject = false
 [breadcrumb]
   enable = true
   sticky = true
-  showHome = true
+  showHome = false
   # FixIt 0.3.13 | NEW
-  separator = " | "
+  separator = " / "
   capitalize = true
 
 # FixIt 0.3.10 | NEW Post navigation config
 [navigation]
   # whether to show the post navigation in section pages scope
-  inSection = false
+  inSection = true
   # whether to reverse the next/previous post navigation order
   reverse = false
 
@@ -164,7 +164,7 @@ disableThemeInject = false
   license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
   # FixIt 0.3.0 | NEW whether to show Hugo and theme info
   [footer.powered]
-    enable = false
+    enable = true
     hugoLogo = true
     themeLogo = true
   # FixIt 0.2.17 | CHANGED Site creation time
@@ -173,7 +173,7 @@ disableThemeInject = false
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    value = "2024" # e.g. "2021-12-18T16:15:22+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
@@ -353,7 +353,7 @@ disableThemeInject = false
   Credly = ""
   Phone = ""
   Email = ""
-  RSS = false
+  RSS = true
   # custom social links like the following
   # [social.twitter]
   #   id = "lruihao"
@@ -370,11 +370,11 @@ disableThemeInject = false
   # blinking speed of the cursor (measured in milliseconds)
   cursorSpeed = 1000
   # character used for the cursor (HTML format is supported)
-  cursorChar = "|"
+  cursorChar = "_"
   # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
   duration = -1
   # FixIt 0.2.18 | NEW whether your strings will continuously loop after completing
-  loop = false
+  loop = true
 
 # FixIt 0.2.15 | NEW Mermaid config
 [mermaid]
@@ -411,7 +411,7 @@ disableThemeInject = false
 [watermark]
   enable = false
   # watermark's text (HTML format is supported)
-  content = ""
+  content = "This is a test"
   # watermark's transparency
   opacity = 0.1
   # watermark's width. unit: px
@@ -432,7 +432,7 @@ disableThemeInject = false
 # FixIt 0.3.10 | NEW Busuanzi count
 [busuanzi]
   # whether to enable busuanzi count
-  enable = false
+  enable = true
   # busuanzi count core script source. Default is https://vercount.one/js
   source = "https://vercount.one/js"
   # whether to show the site views
@@ -473,7 +473,7 @@ disableThemeInject = false
 
 # Cookie consent config
 [cookieconsent]
-  enable = true
+  enable = false
   # text strings used for Cookie consent banner
   [cookieconsent.content]
     message = ""
@@ -490,9 +490,9 @@ disableThemeInject = false
 # Compatibility config
 [compatibility]
   # whether to use Polyfill.io to be compatible with older browsers
-  polyfill = false
+  polyfill = true
   # whether to use object-fit-images to be compatible with older browsers
-  objectFit = false
+  objectFit = true
 
 # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
 [githubCorner]
@@ -513,11 +513,11 @@ disableThemeInject = false
 [backToTop]
   enable = true
   # Scroll percent label in b2t button
-  scrollpercent = false
+  scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
-  enable = false
+  enable = true
   # Available values: ["left", "right"]
   start = "left"
   # Available values: ["top", "bottom"]
@@ -577,7 +577,7 @@ disableThemeInject = false
 # Page config
 [page]
   # FixIt 0.2.18 | NEW whether to enable the author's avatar of the post
-  authorAvatar = false
+  authorAvatar = true
   # whether to hide a page from home page
   hiddenFromHomePage = false
   # whether to hide a page from search results
@@ -620,7 +620,7 @@ disableThemeInject = false
   # FixIt 0.2.17 | NEW end of post flag
   endFlag = ""
   # FixIt 0.2.18 | NEW whether to enable instant.page
-  instantPage = false
+  instantPage = true
   # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
   collectionList = true
   # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
@@ -711,20 +711,20 @@ disableThemeInject = false
     fullscreen = true
   # FixIt 0.3.0 | NEW [Experimental] cache remote images locally, see: https://github.com/hugo-fixit/FixIt/pull/362
   [page.cacheRemoteImages]
-    enable = false
+    enable = true
     # replace remote image url with local image url (place in public/images/remote/)
-    replace = false
+    replace = true
   # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
   [page.related]
     enable = false
     count = 5
   # FixIt 0.2.17 | NEW Donate (Sponsor) settings
   [page.reward]
-    enable = false
-    animation = false
+    enable = true
+    animation = true
     # position relative to post footer, optional values: ["before", "after"]
     position = "after"
-    # comment = "Buy me a coffee"
+    comment = "Buy me a coffee"
     # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
     mode = "static"
     [page.reward.ways]
@@ -735,22 +735,22 @@ disableThemeInject = false
   # social share links in post page
   [page.share]
     enable = true
-    Twitter = true
-    Facebook = true
-    Linkedin = false
-    Whatsapp = false
+    Twitter = false
+    Facebook = false
+    Linkedin = true
+    Whatsapp = true
     Pinterest = false
     Tumblr = false
     HackerNews = false
-    Reddit = false
+    Reddit = true
     VK = false
     Buffer = false
     Xing = false
     Line = false
     Instapaper = false
-    Pocket = false
+    Pocket = true
     Flipboard = false
-    Weibo = true
+    Weibo = false
     Myspace = false
     Blogger = false
     Baidu = false
