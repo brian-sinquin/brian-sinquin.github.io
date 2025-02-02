@@ -21,7 +21,7 @@
 
 
 
-    {{- range .Site.Data.talks -}}
+    {{- range sort .Site.Data.talks "date" "desc" -}}
 
 
 
