@@ -6,4 +6,4 @@ categories: ["Coding", "Simulation"]
 date: 2025-01-01
 ---
 > [!Note]
-> This page is under construction.
+>  <i class="fa-solid fa-cog fa-spin"></i> This page is under construction.
