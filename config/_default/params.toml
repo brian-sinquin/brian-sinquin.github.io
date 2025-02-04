@@ -17,11 +17,11 @@ fingerprint = ""
 # NEW date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
-images = []
+images = ["/favicon/web-app-manifest-192x192.png"]
 # FixIt 0.2.12 | NEW enable PWA
 enablePWA = true
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
-externalIcon = false
+externalIcon = true
 # FixIt 0.3.13 | NEW whether to capitalize titles
 capitalizeTitles = true
 # FixIt 0.3.0 | NEW whether to add site title to the title of every page
@@ -48,7 +48,7 @@ disableThemeInject = false
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
-  repo = ""
+  repo = "https://github.com/brian-sinquin/brian-sinquin.github.io"
   branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
@@ -98,7 +98,7 @@ disableThemeInject = false
     # FixIt 0.2.17 | NEW https://fusejs.io/api/options.html
     isCaseSensitive = false
     minMatchCharLength = 2
-    findAllMatches = false
+    findAllMatches = true
     location = 0
     threshold = 0.3
     distance = 100
@@ -319,7 +319,7 @@ disableThemeInject = false
   Dribbble = ""
   Wordpress = ""
   Vine = ""
-  Googlescholar = ""
+  Googlescholar = "pXhMIqgAAAAJ"
   Researchgate = "Brian-Sinquin"
   Mastodon = ""
   Thingiverse = ""
@@ -453,9 +453,9 @@ disableThemeInject = false
 # Site SEO config
 [seo]
   # image URL
-  image = ""
+  image = "/favicon/web-app-manifest-192x192.png"
   # thumbnail URL
-  thumbnailUrl = ""
+  thumbnailUrl = "/favicon/web-app-manifest-192x192.png"
 
 # Analytics config
 [analytics]
@@ -637,12 +637,12 @@ disableThemeInject = false
     # whether to keep the static table of the contents in front of the post
     keepStatic = false
     # whether to make the table of the contents in the sidebar automatically collapsed
-    auto = true
+    auto = false
     # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
-    position = "right"
+    position = "left"
     # FixIt 0.3.12 | NEW supersede `markup.tableOfContents` settings
     ordered = false
-    startLevel = 2
+    startLevel = 1
     endLevel = 6
   # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
   [page.expirationReminder]
@@ -716,7 +716,7 @@ disableThemeInject = false
     replace = true
   # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
   [page.related]
-    enable = false
+    enable = true
     count = 5
   # FixIt 0.2.17 | NEW Donate (Sponsor) settings
   [page.reward]
@@ -916,8 +916,8 @@ disableThemeInject = false
   # Page SEO config
   [page.seo]
     # image URL
-    images = []
+    images = ["/favicon/web-app-manifest-192x192.png"]
     # Publisher info
     [page.seo.publisher]
-      name = ""
-      logoUrl = ""
+      name = "Brian's academic website"
+      logoUrl = "/favicon/web-app-manifest-192x192.png"
