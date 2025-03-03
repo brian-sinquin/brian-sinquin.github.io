@@ -23,3 +23,11 @@
   authors: ["B. Sinquin", "M. Romanelli", "M. Alouini", "M. Vallet"]
   abstract: "We report the generation of an optical pulse train with a 10 GHz repetition rate in a dual loop direct-modulation optoelectronic oscillator (OEO). Pulse generation is achieved using nonlinear compression in the OEO 5-km-long optical delay line. 3 ps pulses with a timing jitter of 13 fs are reported, while the OEO maintains a phase noise of -133 dBc/Hz at 10 kHz from the carrier. Two architectures are compared experimentally and theoretically. A frequency comb with a 1.2 THz linewidth at -30 dB is generated."
   keywords: ["nonlinear optics", "OEO", "modulation", "pulse", "phasenoise"]
+- title: "Optoelectronic Oscillator Combining a High-Finesse Cavity and Tilt-Locking Stabilization"
+  date: 2025-03-15
+  venue: "Photonics Technology Letters"
+  #download: "https://hal.science/hal-04686127v1"
+  doi: "10.1109/LPT.2025.3544428"
+  authors: ["B. Sinquin", "M. Vallet", "M. Romanelli", "M. Alouini"]
+  abstract: "We report the implementation of a single-pass tilt-locking stabilization scheme in an opto-electronic oscillator using a high-finesse Fabry-Perot as photonic filter. A table-top setup leads to a phase noise level of -80 dBc/Hz at 1 kHz offset from a 6 GHz carrier and a Allan deviation measurement of 3e-10 for 1 s integration time. Future improvements leading to a compact fiber-free OEO are discussed."
+  keywords: ["optical resonator", "OEO", "modulation", "locking", "phasenoise"]
