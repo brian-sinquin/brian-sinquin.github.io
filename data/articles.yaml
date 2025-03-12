@@ -26,7 +26,7 @@
 - title: "Optoelectronic Oscillator Combining a High-Finesse Cavity and Tilt-Locking Stabilization"
   date: 2025-03-15
   venue: "Photonics Technology Letters"
-  #download: "https://hal.science/hal-04686127v1"
+  download: "https://hal.science/hal-04976326v1"
   doi: "10.1109/LPT.2025.3544428"
   authors: ["B. Sinquin", "M. Vallet", "M. Romanelli", "M. Alouini"]
   abstract: "We report the implementation of a single-pass tilt-locking stabilization scheme in an opto-electronic oscillator using a high-finesse Fabry-Perot as photonic filter. A table-top setup leads to a phase noise level of -80 dBc/Hz at 1 kHz offset from a 6 GHz carrier and a Allan deviation measurement of 3e-10 for 1 s integration time. Future improvements leading to a compact fiber-free OEO are discussed."
