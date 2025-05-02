@@ -1,5 +1,5 @@
 ---
-title: "Max Born Institute - Optical Frequency Combs Division"
+title: "Max Born Institute - Division of Precision Physics"
 date: 2025-05-02
 toc: true
 ---
