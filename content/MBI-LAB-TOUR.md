@@ -4,8 +4,6 @@ date: 2025-05-02
 toc: true
 ---
 
-# Introduction
-
 > [!example] Contact
 >  For any question about the group or the lab tour, please reach me at **brian.sinquin[at]mbi-berlin.de**.
 
@@ -13,7 +11,15 @@ toc: true
 <i class="fa-solid fa-cog fa-spin"></i> Not fixed yet.
 
 {{< admonition type="success" title="Group activities" open=true >}}
-<i class="fa-solid fa-cog fa-spin"></i> Under construction.
+
+The general scientific topic of the group is to work with **Optical Frequency Combs (OFCs)** from the development of the light source, to the development of new experimental measurement concepts and methods and the demonstration of new applications proof and concepts. For example the group work on the exploration of new wavelength regions where **OFC** do not exist yet and demonstrate state-of-the-art frequency accuracy for high precision spectroscopy.
+
+---
+1. Precision Spectroscopy in Molecules
+2. Frequency Comb Imaging
+3. Novel Frequency-Comb Spectroscopy & Interferometry
+4. Integrated Photonics
+
 {{< /admonition >}}
 
 {{< admonition type="help" title="People" open=true >}}
