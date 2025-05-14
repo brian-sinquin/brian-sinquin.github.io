@@ -9,8 +9,10 @@ toc: true
 > [!example] Contact
 >  For any question about the group or the lab tour, please reach me at **brian.sinquin[at]mbi-berlin.de**.
 
-> [!abstract] Lab Tour Date
-<i class="fa-solid fa-cog fa-spin"></i> Not fixed yet.
+> [!abstract] Lab Tour 
+**Lab visit organized upon request** (send a request to the email above)
+
+We are searching for few working students and Master's thesis / PhD candidates (for september).
 
 {{< admonition type="success" title="Group activities" open=true >}}
 <i class="fa-solid fa-cog fa-spin"></i> Under construction.
