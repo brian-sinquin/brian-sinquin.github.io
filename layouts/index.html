@@ -1,0 +1,10 @@
+{{ define "title" }}
+  {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  <div class="page home">
+    {{- partial "home/profile.html" . -}}
+    {{- partial "home/latest-post.html" . -}}
+  </div>
+{{ end }}
