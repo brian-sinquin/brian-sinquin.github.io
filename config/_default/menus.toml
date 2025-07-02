@@ -1,0 +1,94 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
+
+
+[[main]]
+  identifier = "publications"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Publications"
+  url = "/publications/"
+  title = ""
+  weight = 1
+  [main.params]
+    icon = "fa-solid fa-book-open"
+[[main]]
+  identifier = "talks"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Talks"
+  url = "/talks/"
+  title = ""
+  weight = 2
+  [main.params]
+    icon = "fa-solid fa-microphone"
+[[main]]
+  identifier = "research"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Research"
+  url = "/research/"
+  title = ""
+  weight = 3
+  [main.params]
+  icon = "fa-solid fa-flask"
+[[main]]
+  identifier = "project"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Projects"
+  url = "/projects/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-solid fa-gear"
+[[main]]
+  identifier = "posts"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Blog"
+  url = "/posts/"
+  title = ""
+  weight = 5
+  [main.params]
+    icon = "fa-solid fa-pen"
+[[main]]
+  identifier = "cv"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "CV"
+  url = "/cv/"
+  title = ""
+  weight = 6
+  [main.params]
+    icon = "fa-solid fa-graduation-cap"
+[[main]]
+  identifier = "categories"
+  parent = ""
+  pre = ""
+  post = ""
+  name = ""
+  url = "/categories/"
+  title = ""
+  weight = 8
+  [main.params]
+    icon = "fa-solid fa-folder-tree"
+[[main]]
+  identifier = "tags"
+  parent = ""
+  pre = ""
+  post = ""
+  name = ""
+  url = "/tags/"
+  title = ""
+  weight = 7
+  [main.params]
+    icon = "fa-solid fa-tags"

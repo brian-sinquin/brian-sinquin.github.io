@@ -1,0 +1,9 @@
+<div class="home-posts">
+  <h2>Latest Post</h2>
+  {{ range first 2 (where .Site.RegularPages "Section" "posts") }}
+    <div class="post">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Summary }}</p>
+    </div>
+  {{ end }}
+</div>
